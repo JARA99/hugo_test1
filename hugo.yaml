@@ -1,7 +1,7 @@
 baseURL: "https://jorge-alejandro.com"
 languageCode: "en-us"
 title: "Hugo Profile"
-theme: hugo-profile
+theme: "hugo-profile"
 
 outputs:
   home:
