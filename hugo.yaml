@@ -53,10 +53,11 @@ Menus:
     #   weight: 2
 
 params:
+  staticPath: '/hugo_test1'
   title: "Hugo Profile"
   description: Text about my cool site
   # staticPath: ""  # The path to serve the static files from
-  favicon: "/fav.png"
+  favicon: "/hugo_test1/fav.png"
 
   # Whether to serve bootstrap css and js files from CDN or not. Can be set to true, "css" or "js" to choose between
   # serving both, only the css, or only the js files through the CDN. Any other value will make so that CDN is not used.
@@ -127,7 +128,7 @@ params:
     title: "Isabella."
     subtitle: "I build things for the web"
     content: "A passionate web app developer. I tend to make use of modern web technologies to build websites that looks great, feels fantastic, and functions correctly."
-    image: /images/hero.svg
+    image: "/hugo_test1/images/hero.svg"
     bottomImage:
       enable: true
     # roundImage: true # Make hero image circular | default false
@@ -151,7 +152,7 @@ params:
   about:
     enable: true
     title: "About Me"
-    image: "/images/me.png"
+    image: "/hugo_test1/images/me.png"
     content: |-
       I am a software developer with a passion for web development. I have a background in computer science and mathematics, and I have a strong interest in the intersection of technology and art. I am currently working as a software developer at [example org.](https://example.com) in San Francisco, CA. 
 
